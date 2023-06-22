@@ -1,7 +1,10 @@
-/* CSS code */
+/* Global Styles */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* Sidebar Styles */
 
 .sidebar, .deeper-sidebar {
     width: 0;
@@ -29,6 +32,8 @@ body {
     z-index: 9998;
 }
 
+/* Hamburger Icon Styles */
+
 .hamburger {
     position: fixed;
     right: 10px;
@@ -54,6 +59,8 @@ body {
     z-index: 9999;
 }
 
+/* Button Styles */
+
 .back-button, .button {
     width: 100%;
     border-radius: 5px;
@@ -73,6 +80,13 @@ body {
     flex-shrink: 0;
 }
 
+.button-save, .button-edit {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Dropdown and Text Area Styles */
+
 .dropdown, .text-area {
     width: 100%;
     color: #333;
@@ -87,10 +101,7 @@ body {
     margin-bottom: 10px;
 }
 
-.button-save, .button-edit {
-    width: 100%;
-    margin-top: 10px;
-}
+/* Tooltip Area Styles */
 
 .tooltip-area {
     position: absolute;
@@ -106,14 +117,14 @@ body {
     transition: opacity 0.2s linear;
 }
 
-.button-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+/* Wrapper Styles */
 
-.half-button-wrapper {
+.button-wrapper, .half-button-wrapper {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+.button-wrapper {
+    flex-wrap: wrap;
 }
