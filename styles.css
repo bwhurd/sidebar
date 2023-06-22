@@ -114,8 +114,8 @@
   width: 100%;
   margin-top: 10px;
   padding: 10px;
-  background-color: #AB68FD;
-  color: #fff;
+  background-color: #3F414F;
+  color: #17C37D;
   border: none;
   border-radius: 4px;
   font-size: 16px;
@@ -125,7 +125,7 @@
 
 .save-button:hover,
 .edit-button:hover {
-  background-color: #9529D8;
+  background-color: #2C2E39;
 }
 
 /* Button Wrapper */
@@ -141,8 +141,8 @@
   border: none;
   padding: 10px;
   text-align: left;
-  background-color: #17C37D;
-  color: #fff;
+  background-color: #3F414F;
+  color: #17C37D;
   cursor: pointer;
   margin-top: 10px;
   font-size: 16px;
@@ -152,7 +152,7 @@
 }
 
 .button:hover {
-  background-color: #12A267;
+  background-color: #2C2E39;
 }
 
 /* Half Button */
