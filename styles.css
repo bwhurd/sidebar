@@ -1,5 +1,4 @@
-/* Place this in a separate CSS file and link it to your HTML document */
-
+/* Sidebar */
 .sidebar {
   width: 0;
   height: 100vh;
@@ -16,6 +15,7 @@
   z-index: 9999;
 }
 
+/* Deeper Sidebar */
 .deeper-sidebar {
   display: none;
   width: 20vw;
@@ -33,6 +33,7 @@
   z-index: 9998;
 }
 
+/* Hamburger Button */
 .hamburger {
   position: fixed;
   right: 10px;
@@ -58,6 +59,7 @@
   z-index: 9999;
 }
 
+/* Toast */
 .toast {
   position: fixed;
   top: 20px;
@@ -71,50 +73,94 @@
   animation-fill-mode: forwards;
 }
 
+/* Dropdown */
 .dropdown {
   width: 100%;
   margin-bottom: 10px;
   color: #333;
   background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s ease-in-out;
 }
 
+.dropdown:hover {
+  border-color: #888;
+}
+
+/* Textarea */
 .text-area {
   width: 100%;
   height: 200px;
   color: #333;
   background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s ease-in-out;
+  resize: none;
 }
 
+.text-area:hover {
+  border-color: #888;
+}
+
+/* Save Button, Edit Button */
 .save-button,
 .edit-button {
   width: 100%;
   margin-top: 10px;
+  padding: 10px;
+  background-color: #1565C0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
 
+.save-button:hover,
+.edit-button:hover {
+  background-color: #0D47A1;
+}
+
+/* Button Wrapper */
 .button-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
+/* Button */
 .button {
   border-radius: 5px;
   border: none;
   padding: 10px;
   text-align: left;
-  background-color: transparent;
+  background-color: #1565C0;
   color: #fff;
   cursor: pointer;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 16px;
   width: 100%;
   flex-shrink: 0;
+  transition: background-color 0.2s ease-in-out;
 }
 
+.button:hover {
+  background-color: #0D47A1;
+}
+
+/* Half Button */
 .half-button {
   width: 48%;
 }
 
+/* Tooltip */
 .tooltip-area {
   position: absolute;
   bottom: 0;
@@ -129,6 +175,7 @@
   transition: opacity 0.2s linear;
 }
 
+/* Back Button */
 .back-button {
   width: 100%;
   border-radius: 5px;
