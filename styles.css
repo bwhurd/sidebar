@@ -140,7 +140,7 @@
   border: none;
   padding: 10px;
   text-align: left;
-  background-color: #2A2A32;
+  background-color: #20242C;
   color: #A96AFF;
   cursor: pointer;
   margin-top: 10px;
@@ -151,7 +151,7 @@
 }
 
 .button:hover {
-  background-color: #20242C;
+  background-color: #2A2A32;
 }
 
 /* Half Button */
@@ -166,7 +166,7 @@
   width: 90%;
   left: 5%;
   padding: 10px;
-  background-color: #A769FF;
+  background-color: #2A2A32;
   color: #4A946C;
   text-align: center;
   border-radius: 4px;
