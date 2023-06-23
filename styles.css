@@ -2,7 +2,7 @@
 .sidebar {
   width: 0;
   height: 100vh;
-  background-color: #333541;
+  background-color: #202123;
   position: fixed;
   right: -20vw;
   top: 0;
@@ -141,7 +141,7 @@
   padding: 10px;
   text-align: left;
   background-color: #2A2A32;
-  color: #17C37D;
+  color: #A96AFF;
   cursor: pointer;
   margin-top: 10px;
   font-size: 16px;
@@ -151,7 +151,7 @@
 }
 
 .button:hover {
-  background-color: #343541;
+  background-color: #20242C;
 }
 
 /* Half Button */
